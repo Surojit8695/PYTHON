@@ -1,0 +1,9 @@
+Name:ss
+Date of birth:29293
+Year of admission:2233
+Department name:1112
+------------------------------------------Name:1
+Date of birth:1
+Year of admission:1
+Department name:111111
+------------------------------------------
