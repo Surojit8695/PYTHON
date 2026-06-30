@@ -1,0 +1,10 @@
+n = int(input("Enter the number of rows: "))
+
+for i in range(0, n):
+    for j in range(0, n):
+        # 0 targets the first row/column, n-1 targets the last row/column
+        if i == j or i+j == n - 1 :
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
