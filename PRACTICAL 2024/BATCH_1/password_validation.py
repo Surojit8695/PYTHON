@@ -1,3 +1,11 @@
+# Program 2
+# Write a Python program to validate passwords.
+# Conditions:
+# 1. At least one lowercase letter
+# 2. At least one uppercase letter
+# 3. At least one digit
+# 4. At least one special character from [$#@]
+# 5. Length between 6 and 12
 n = int(input("Enter the Number of Passwords: "))
 
 print("Enter the set of passwords:")

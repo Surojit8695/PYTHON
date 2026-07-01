@@ -20,7 +20,7 @@ class Rectangle:
         return area
     
 r1=Rectangle()
-r1.readData("C:\\Users\\suroj\\OneDrive\\Desktop\\PYTHON\\2024Practical\\rctangle.txt")
+r1.readData("C:\\Users\\suroj\\OneDrive\\Desktop\\PYTHON\\PRACTICAL 2024\\BATCH_3\\rectangle.txt")
 print(r1.calculateArea())
 
 ##Pass values as parameters to the method

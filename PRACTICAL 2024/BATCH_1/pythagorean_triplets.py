@@ -1,3 +1,6 @@
+# Program 3
+# Write a Python program to generate all Pythagorean Triplets
+# whose values are less than or equal to the given limit.
 limit = int(input("Enter the limit: "))
 
 print("Pythagorean Triplets are:")

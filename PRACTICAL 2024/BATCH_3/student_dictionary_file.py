@@ -16,7 +16,7 @@ while 1:
 
 print(student)
 
-file1="C:\\Users\\suroj\\OneDrive\\Desktop\\PYTHON\\2024Practical\\students.txt"
+file1="C:\\Users\\suroj\\OneDrive\\Desktop\\PYTHON\\PRACTICAL 2024\\BATCH_3\\students.txt"
 fp=open(file1,"w")
 for key ,value in student.items():
     fp.write(f"Name:{key}\n")

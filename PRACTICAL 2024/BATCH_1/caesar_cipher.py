@@ -1,3 +1,7 @@
+# Program 1
+# Write a Python program to implement a Caesar Cipher.
+# The program should take a string and a shift value from the user
+# and encrypt the string by shifting each alphabet by the given value.
 s=input("Enter the string:")
 shift=int(input("Enter the shifting beat:"))
 result=""
