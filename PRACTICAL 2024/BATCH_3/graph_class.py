@@ -1,4 +1,4 @@
-# Program 1
+# Program 1(Incomplete preparation)
 # Write a Python program to create a Graph class.
 # (a) Read graph as edge list from a file.
 # (b) Print the neighbours of each vertex.

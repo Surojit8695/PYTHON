@@ -1,3 +1,6 @@
+# Program 4
+# Given a list of elements, group similar elements
+# as different key-value lists in a dictionary.
 test_list=[4,6,6,4,2,2,4,8,5,8]
 result={}
 for i in test_list:

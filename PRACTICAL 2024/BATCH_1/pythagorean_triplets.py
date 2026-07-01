@@ -12,7 +12,7 @@ for a in range(1, limit + 1):
                 print(a, b, c)
 
 
-
+##method 2
 # for i in range(1, limit + 1):
 #     for j in range(i + 1, limit + 1):
 #         k = (i*i + j*j) ** 0.5

@@ -1,3 +1,7 @@
+# Program 2
+# Write a Python program to read a multi-digit number as
+# command line input and print the frequency of each digit.
+#RUN IN COMMAND LINE
 import sys
 
 def frequency(num):
