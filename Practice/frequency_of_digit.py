@@ -13,8 +13,6 @@ number = input("Enter a multi-digit number: ")
 
 frequency(number)
 
-# # Command line input
-# number = sys.argv[1]
 
 # string.count(value)
 # The count() function is a built-in string method in Python that

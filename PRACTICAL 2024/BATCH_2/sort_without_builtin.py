@@ -3,7 +3,15 @@
 # built-in sort() function.
 # Sort only if there are no duplicate elements.
 
-numbers = list(map(int, input("Enter list elements: ").split()))
+numbers = []
+
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    num = int(input("Enter element: "))
+    numbers.append(num)
+
+print(numbers)
 
 duplicate = False
 
