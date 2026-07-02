@@ -1,7 +1,9 @@
+# 3. Write a Python program that lists all files and directories in a specified directory. Also display the count
+# of the number of files that are empty
 import os
 
 # Specify the directory path
-path = input("Enter directory path: ")
+path = input("Enter directory path: ")#D:\New folder\BISWAJIT SIR\SEM-6\PYTHON
 
 empty_count = 0
 

@@ -1,3 +1,5 @@
+# 4. Write a Python program to solve the quadratic equation ax² + bx + c = 0 by getting input for coefficients
+# from the user.
 import math
 
 a = float(input("Enter coefficient a: "))

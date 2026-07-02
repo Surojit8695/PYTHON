@@ -4,7 +4,7 @@ sentence = input("Enter a sentence: ")
 words = sentence.split()
 
 # Sort words in decreasing order of length
-words.sort(key=len, reverse=True)
+words.sort(key=len,reverse=True)
 
 print("Words in decreasing order of length:")
 

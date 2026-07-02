@@ -26,9 +26,9 @@ print(r1.calculateArea())
 ##Pass values as parameters to the method
 # r1 = Rectangle()
 # print(r1.calculateArea(10, 20))
+
 ##Read input inside the method
 # class Rectangle:
-
 #     def calculateArea(self):
 #         length = int(input("Enter length: "))
 #         width = int(input("Enter width: "))
@@ -37,6 +37,7 @@ print(r1.calculateArea())
 
 # r1 = Rectangle()
 # print(r1.calculateArea())
+
 
 ##create a separate setter method
 # class Rectangle:
@@ -53,7 +54,7 @@ print(r1.calculateArea())
 # print(r1.calculateArea())
 
 
-#read data through file
+##read data through file
 # def readData(self, filename):
 #         fp = open(filename, "r")
 #         self.length = int(fp.readline())

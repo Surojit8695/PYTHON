@@ -9,3 +9,5 @@ for i in test_list:
     else:
         result[i].append(i)
 print(result)
+
+# output:{4: [4, 4, 4], 6: [6, 6], 2: [2, 2], 8: [8, 8], 5: [5]}
