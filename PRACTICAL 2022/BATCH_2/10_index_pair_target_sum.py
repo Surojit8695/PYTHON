@@ -9,7 +9,7 @@ numbers = [10, 30, 20, 40, 50, 60, 70]
 
 target = int(input("Enter target value: "))
 
-found = False
+flag = 0
 
 for i in range(len(numbers)):
 
@@ -19,11 +19,11 @@ for i in range(len(numbers)):
 
             print("Index Pair:", i, j)
 
-            found = True
+            flag = 1
             break
 
-    if found:
+    if flag == 1:
         break
 
-if not found:
+if flag == 0:
     print("No Solution Found")

@@ -14,9 +14,19 @@ def common_member(list1, list2):
 
     return False
 
-
-# Driver Program
 list1 = input("Enter first list elements: ").split()
 list2 = input("Enter second list elements: ").split()
 
 print(common_member(list1, list2))
+
+# # method 2
+# list1 = input("Enter first list elements: ").split()
+# list2 = input("Enter second list elements: ").split()
+
+# set1 = set(list1)
+# set2 = set(list2)
+
+# if set1.intersection(set2):
+#     print(True)
+# else:
+#     print(False)

@@ -5,7 +5,7 @@
 # (b) Users without email address
 # (c) Users whose phone number starts with 9
 # -------------------------------------------------------------
-
+#here user is a list datatype
 users = [
 
     {"name": "Ram",
@@ -21,28 +21,23 @@ users = [
      "email": "bharat@gmail.com"},
 
     {"name": "Satrughna",
-     "phone": "9478171717",
+     "phone": "9478171715",
      "email": "satrughna@gmail.com"}
 
 ]
 
 print("Phone number ends with 5")
-
 for user in users:
-
     if user["phone"].endswith("5"):
         print(user["name"])
-
+print()
 print("\nUsers without email")
 
 for user in users:
-
-    if user["email"] == "":
+    if user["email"]=="":
         print(user["name"])
 
 print("\nPhone number starts with 9")
-
 for user in users:
-
     if user["phone"].startswith("9"):
         print(user["name"])

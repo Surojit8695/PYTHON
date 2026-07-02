@@ -4,7 +4,8 @@
 # Find the longest chain of zeros and its index span.
 # -------------------------------------------------------------
 
-numbers = list(map(int, input("Enter 0s and 1s separated by space: ").split()))
+# numbers = list(map(int, input("Enter 0s and 1s separated by space: ").split()))
+numbers =[1,0,1,0,0,0,1,0,0,0,0,0,0,1]
 
 max_count = 0
 current_count = 0

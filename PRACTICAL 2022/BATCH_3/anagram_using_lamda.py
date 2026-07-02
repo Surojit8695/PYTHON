@@ -1,4 +1,4 @@
-# Program to find all anagrams of a string using lambda
+# Program to find all anagrams of a string without lambda and filter
 
 # Original list
 words = ['beda', 'abce', 'bcda', 'cbea', 'adcb']
@@ -6,9 +6,14 @@ words = ['beda', 'abce', 'bcda', 'cbea', 'adcb']
 # Target string
 target = "abcd"
 
-# Find anagrams using lambda and filter
-result = list(filter(lambda x: sorted(x) == sorted(target), words))
-# filter() keeps only those words for which the lambda function returns True.
+# Empty list to store anagrams
+result = []
+
+# Check each word
+for word in words:
+    if sorted(word) == sorted(target):
+        result.append(word)
+
 print("Original List:")
 print(words)
 
