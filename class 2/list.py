@@ -1,3 +1,18 @@
+lst1=[1,2,3,4,5,6]
+#method 1
+print(lst1)
+for i in lst1:
+    print(i)
+
+#method 2
+for i in range(len(lst1)):
+    print(lst1[i])
+
+fruit=["apple","Banana","Mango","Pineapple"]
+print(fruit)
+fruit.append("cucamber")
+fruit.append("hello")
+print(fruit)
 """
 print("Enter the value of x:",end="")
 x=int(input())
@@ -18,7 +33,6 @@ print("Type of c is:",type(c))
 print("Type of d is:",type(d))
 print("Type of e is:",type(e))
 """
-"""
 str1=input("Enter the string:")
 print(str1)
 print(str1[0:3])
@@ -31,31 +45,8 @@ print(str1.split())
 str2="welcoMe to The CITy of joy"
 print(str2.capitalize())
 
-str3="Welcome to the page"
+str3="Welcome to the page.ik this is enough"
 print(str3.center(50))
 
 str4="surojit saha hello world surojit kolkata surojit"
 print(str4.count("surojit"))
-"""
-lst1=[1,2,3,4,5,6]
-#method 1
-print(lst1)
-for i in lst1:
-    print(i)
-
-#method 2
-for i in range(len(lst1)):
-    print(lst1[i])
-
-fruit=["apple","Banana","Mango","Pineapple"]
-print(fruit)
-fruit.append("cucamber")
-fruit.append("hello")
-print(fruit)
-
-
-
-
-
-
-

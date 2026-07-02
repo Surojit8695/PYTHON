@@ -11,8 +11,8 @@ result=s.replace(" ","")
 
 #method 2
 flag=0
-for ch in range(len(result)):
-    if result[ch] in result[ch+1:]:
+for i in range(len(result)):
+    if result[i] in result[i+1:]:
         flag=1
         break
 if flag==1:

@@ -9,20 +9,19 @@ fp=open(file1,"r")
 data=fp.read().split()
 fp.close()
 print("words ending with on:")
-for i in data:
-    if i.endswith("on"):
-        print(i)
+for word in data:
+    if word.endswith("on"):
+        print(word)
 print("words with re in 2nd and 3rd position:")
-for i in data:
-    if len(i) >= 3 and i[1:3] == "re":
-        print(i)
+for word in data:
+    if len(word) >= 3 and word[1:3] == "re":
+        print(word)
 #all words with no vowels
 print("words with no vowels:")
 for word in data:
-    word_lower = word.lower()
-    if ('a' not in word_lower and
-        'e' not in word_lower and
-        'i' not in word_lower and
-        'o' not in word_lower and
-        'u' not in word_lower):
+    if ('a' not in word.lower() and
+        'e' not in word.lower() and
+        'i' not in word.lower() and
+        'o' not in word.lower() and
+        'u' not in word.lower()):
         print(word)

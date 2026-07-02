@@ -4,7 +4,8 @@ def frequency(num):
     d = {}
 
     for i in range(10):
-        d[i] = num.count(str(i))
+        count= num.count(str(i))
+        d[i]=count
 
     print(d)
 

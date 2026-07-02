@@ -31,3 +31,7 @@ for i in numbers:
         new_list.append(i)
 
 print("Updated List:", new_list)
+
+# Enter list elements: 1 2 2 3 4 5 2 3 7 
+# Enter item to remove: 2
+# Updated List: [1, 3, 4, 5, 3, 7]

@@ -8,14 +8,15 @@
 # -------------------------------------------------------------
 
 import pickle
+import os
 
 # Function to create binary file
 def createFile():
 
     file = open("Book.dat", "wb")
-
+    full_path = os.path.abspath("Book.dat")
+    print("Writing to file at:", full_path)
     n = int(input("Enter number of books: "))
-
     for i in range(n):
 
         print("\nBook", i + 1)

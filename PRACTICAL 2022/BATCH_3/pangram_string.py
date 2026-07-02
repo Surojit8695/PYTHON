@@ -1,5 +1,5 @@
 # Function to check whether a string is a pangram
-
+# "The quick brown fox jumps over the lazy dog" 
 def check_pangram(sentence):
 
     letters = set()
@@ -21,3 +21,5 @@ if check_pangram(text):
     print("The given sentence is a Pangram.")
 else:
     print("The given sentence is NOT a Pangram.")
+
+# "The quick brown fox jumps over the lazy dog" 

@@ -1,4 +1,4 @@
-file1 = "C:\\Users\\suroj\\OneDrive\\Desktop\\PYTHON\\PRACTICAL 2022\\matter.txt"
+file1 = "C:\\Users\\suroj\\OneDrive\\Desktop\\PYTHON\\PRACTICAL 2022\\BATCH_3\\matter.txt"
 
 fp = open(file1, "r")
 data = fp.read()

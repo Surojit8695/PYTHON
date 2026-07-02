@@ -13,14 +13,11 @@ class PyWords:
 
     # Return words of given length
     def words_with_length(self, l):
-
         result = []
-
-        for word in self.process_words:
+        for word in self.process_words:#loop
 
             if len(word) == l:
                 result.append(word)
-
         return result
 
     # Return words starting with given letter

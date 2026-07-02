@@ -1,48 +1,81 @@
-# Program 5
-# Write a Python program to implement Queue operations:
-# createQueue(), enqueue(), dequeue()
+# Linear Queue using C Programming Logic
 
-queue = []
+class Queue:
+    def __init__(self):
+        self.q = []
 
-def createQueue():
-    global queue
-    queue = []
-    print("Queue Created")
+    # Insert at Rear
+    def enqueue(self, data):
+        self.q.append(data)
 
-def enqueue():
-    item = int(input("Enter element: "))
-    queue.append(item)
-    print("Inserted Successfully")
+    # Delete from Front
+    def dequeue(self):
+        print("Deleted element is:", self.q.pop(0))
 
-def dequeue():
-    if len(queue) == 0:
-        print("Queue Underflow")
-    else:
-        print("Deleted:", queue.pop(0))
+    # Display Queue
+    def display(self):
+        for i in self.q:
+            print(i, end=" ")
+        print()
+
+
+max = int(input("Enter the size of the queue: "))
+
+q1 = Queue()
+
+front = -1
+rear = -1
 
 while True:
 
-    print("\n1.Create Queue")
-    print("2.Enqueue")
-    print("3.Dequeue")
-    print("4.Display")
-    print("5.Exit")
+    print("\n----- MENU -----")
+    print("1. ENQUEUE")
+    print("2. DEQUEUE")
+    print("3. DISPLAY")
+    print("4. EXIT")
 
-    choice = int(input("Enter choice: "))
+    choice = int(input("Enter your choice: "))
 
     if choice == 1:
-        createQueue()
+
+        if rear == max - 1:
+            print("Queue is Full")
+
+        else:
+
+            data = int(input("Enter the data: "))
+
+            if front == -1:
+                front = 0
+
+            rear += 1
+            q1.enqueue(data)
 
     elif choice == 2:
-        enqueue()
+
+        if front == -1:
+            print("Queue is Empty")
+
+        else:
+
+            q1.dequeue()
+
+            if front == rear:
+                front = -1
+                rear = -1
+            else:
+                front += 1
 
     elif choice == 3:
-        dequeue()
+
+        if front == -1:
+            print("Queue is Empty")
+
+        else:
+            print("Queue elements are:")
+            q1.display()
 
     elif choice == 4:
-        print(queue)
-
-    elif choice == 5:
         break
 
     else:

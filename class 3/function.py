@@ -8,7 +8,6 @@ print(2**3)
 print(15//3)
 print(15%2)
 
-'''
 #how to print anything
 print("Hello world")
 #how to print any line within the same line
@@ -36,6 +35,5 @@ print(aa)
 print(bb)
 print(cc)
 #how to know the type of datatype
-'''
-
-
+print(type(x))
+print(type(y))  

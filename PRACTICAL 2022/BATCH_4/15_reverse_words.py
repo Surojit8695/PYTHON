@@ -17,3 +17,7 @@ result = " ".join(words)
 
 print("Reversed Sentence:")
 print(result)
+
+# Enter a sentence: my name is surojit
+# Reversed Sentence:
+# surojit is name my

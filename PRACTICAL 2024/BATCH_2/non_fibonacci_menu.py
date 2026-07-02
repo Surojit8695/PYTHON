@@ -14,7 +14,7 @@ def generate_non_fibonacci(n):
 
             if count == n:
                 break
-
+ 
             print(i, end=" ")
             count += 1
 
