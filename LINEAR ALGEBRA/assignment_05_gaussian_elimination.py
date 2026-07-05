@@ -19,20 +19,22 @@ from sympy import Matrix
 # -------------------------------------------------------------
 # Coefficient Matrix
 # -------------------------------------------------------------
-A = Matrix([
+A = [
     [1, 1, 1],
     [2, 3, 1],
     [1, 2, 2]
-])
+]
+A=Matrix(A)#SymPy Matrix objects.
 
 # -------------------------------------------------------------
 # Constant Matrix
 # -------------------------------------------------------------
-B = Matrix([
+B = [
     [6],
     [10],
     [9]
-])
+]
+B=Matrix(B)#SymPy Matrix objects.
 
 # -------------------------------------------------------------
 # Create Augmented Matrix
@@ -70,11 +72,7 @@ if rank_A == rank_aug:
     if rank_A == A.cols:
 
         print("Unique Solution Exists.")
-
-        # -----------------------------------------------------
-        # Back Substitution
-        # -----------------------------------------------------
-
+        #back substution
         z = REF[2,3] / REF[2,2]
 
         y = (REF[1,3] - REF[1,2] * z) / REF[1,1]
@@ -82,17 +80,10 @@ if rank_A == rank_aug:
         x = (REF[0,3] - REF[0,1] * y - REF[0,2] * z) / REF[0,0]
 
         print("\nSolution using Back Substitution")
-
         print("x =", x)
-
         print("y =", y)
-
         print("z =", z)
-
     else:
-
         print("Infinite Solutions.")
-
 else:
-
     print("\nSystem is INCONSISTENT.")

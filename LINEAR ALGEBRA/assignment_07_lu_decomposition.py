@@ -65,7 +65,7 @@ print("y =", X[1])
 print("z =", X[2])
 
 # -------------------------------------------------------------
-# Verification using NumPy
+# Verification using NumPy(This part is not mandatory)
 # -------------------------------------------------------------
 print("\nVerification using np.linalg.solve()")
 

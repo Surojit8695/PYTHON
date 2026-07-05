@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 8
-#
 # Question 8
 # Write a Python program that inputs N vectors of dimension 3
 # and corresponding scalars.
@@ -30,9 +27,9 @@ for i in range(n):
 
     print(f"\nEnter Vector {i+1} (3 elements):")
 
-    vector = np.array(list(map(float, input().split())))
+    u1 = np.array(list(map(float, input().split())))
 
-    vectors.append(vector)
+    vectors.append(u1)
 
     scalar = float(input(f"Enter Scalar a{i+1}: "))
 
