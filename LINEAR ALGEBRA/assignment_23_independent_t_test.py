@@ -1,7 +1,4 @@
-# -------------------------------------------------------------
-# Assignment 23
-#
-# Question 23
+# Question 23 (Not Done)
 # A researcher wants to compare the average weights
 # of two different plant species.
 #

@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 5(a)
-#
 # Question 5
 # Solve the following system of linear equations using
 # Gaussian Elimination and determine whether the system

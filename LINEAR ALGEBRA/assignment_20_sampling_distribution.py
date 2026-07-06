@@ -1,7 +1,4 @@
-# -------------------------------------------------------------
-# Assignment 20
-#
-# Question 20
+# Question 20 (Not Done)
 # Using the Iris dataset, draw 100 repeated random
 # samples of size 30 and compute the sample means
 # of sepal length.

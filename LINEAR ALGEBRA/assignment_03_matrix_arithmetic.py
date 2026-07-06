@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 3
-#
 # Question 3
 # Write a menu driven program that inputs two matrices
 # A and B and perform the following operations:

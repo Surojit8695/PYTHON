@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 5(b)
-#
 # Question 5
 # Solve the following system of linear equations using
 # Gauss–Jordan Method and determine whether the system

@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 2
-#
 # Question 2
 # Write a program that inputs a square matrix of order N
 # and perform the following operations:

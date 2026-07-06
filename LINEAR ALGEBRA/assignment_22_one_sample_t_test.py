@@ -1,7 +1,4 @@
-# -------------------------------------------------------------
-# Assignment 22
-#
-# Question 22
+# Question 22 (Same as 21)
 # A nutritionist claims that a new diet plan reduces
 # average cholesterol levels to below 200 mg/dL.
 #

@@ -1,7 +1,4 @@
-# -------------------------------------------------------------
-# Assignment 19
-#
-# Question 19
+# Question 19 (Not Done)
 # Using the Iris dataset, compute skewness
 # and kurtosis for Sepal Length and interpret
 # the distribution shape.

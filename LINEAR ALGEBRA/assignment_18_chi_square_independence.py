@@ -1,7 +1,4 @@
-# -------------------------------------------------------------
-# Assignment 18
-#
-# Question 18
+# Question 18 (Not Done)
 # A researcher wants to test whether there is an
 # association between Gender and Product Preference.
 #
