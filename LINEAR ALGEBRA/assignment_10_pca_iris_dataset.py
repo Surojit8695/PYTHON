@@ -1,7 +1,3 @@
-# Question 10
-# Perform Principal Component Analysis (PCA)
-# on the Iris dataset.
-#
 # Standardize the features and reduce the
 # dimensionality to two principal components.
 #

@@ -14,15 +14,17 @@ import matplotlib.pyplot as plt
 # -------------------------------------------------------------
 # Create Sample Diabetes Dataset
 # -------------------------------------------------------------
-data = {
-    "Glucose": [85, 89, 120, 140, 155, 170, 110, 95],
-    "BloodPressure": [66, 70, 72, 80, 85, 90, 75, 68],
-    "SkinThickness": [22, 24, 30, 32, 35, 38, 28, 25],
-    "Insulin": [90, 100, 120, 140, 180, 210, 130, 110],
-    "BMI": [22.5, 24.0, 27.5, 30.2, 33.8, 36.1, 28.4, 25.6]
-}
+# data = {
+#     "Glucose": [85, 89, 120, 140, 155, 170, 110, 95],
+#     "BloodPressure": [66, 70, 72, 80, 85, 90, 75, 68],
+#     "SkinThickness": [22, 24, 30, 32, 35, 38, 28, 25],
+#     "Insulin": [90, 100, 120, 140, 180, 210, 130, 110],
+#     "BMI": [22.5, 24.0, 27.5, 30.2, 33.8, 36.1, 28.4, 25.6]
+# }
 
-df = pd.DataFrame(data)
+# df = pd.DataFrame(data)
+file1="C:\\Users\\suroj\\OneDrive\\Desktop\\PYTHON\\LINEAR ALGEBRA\\sample_diabetes_dataset.csv"
+df = pd.read_csv(file1)
 
 # -------------------------------------------------------------
 # Display Dataset
@@ -54,11 +56,11 @@ print(df.kurt())
 # -------------------------------------------------------------
 # Histograms
 # -------------------------------------------------------------
-df.hist(figsize=(10,8))
+plt.figure(figsize=(10,8))
+df.hist()
 plt.suptitle("Histograms")
 plt.show()
 
-# -------------------------------------------------------------
 # Boxplots
 # -------------------------------------------------------------
 plt.figure(figsize=(8,6))
@@ -66,9 +68,7 @@ df.boxplot()
 plt.title("Boxplots")
 plt.show()
 
-# -------------------------------------------------------------
 # Bar Chart - Mean
-# -------------------------------------------------------------
 df.mean().plot(kind="bar")
 plt.title("Mean of Variables")
 plt.ylabel("Mean")

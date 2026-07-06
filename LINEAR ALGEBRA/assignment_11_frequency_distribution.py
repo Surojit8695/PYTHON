@@ -5,6 +5,8 @@
 # Hint:
 # Use plt.bar() for absolute frequency and
 # plt.plot(np.cumsum(frequency)) for cumulative frequency.
+#family_size = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+#frequency = [26, 21, 17, 12, 9, 3, 2, 2, 1]
 # -------------------------------------------------------------
 
 import numpy as np
@@ -47,7 +49,7 @@ print(cumulative_frequency)
 # Cumulative Frequency Graph (Ogive)
 # -------------------------------------------------------------
 plt.figure(figsize=(8,5))
-
+#line graph
 plt.plot(family_size,
          cumulative_frequency,
          marker='o')

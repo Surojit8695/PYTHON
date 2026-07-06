@@ -38,7 +38,8 @@ for i in range(n):
 # -------------------------------------------------------------
 # Compute Linear Combination
 # -------------------------------------------------------------
-result = np.zeros(3)
+result = np.zeros(3)#The function np.zeros() creates a NumPy array filled with zeros.
+#It is commonly used to initialize an array before storing values in it.
 
 for i in range(n):
 

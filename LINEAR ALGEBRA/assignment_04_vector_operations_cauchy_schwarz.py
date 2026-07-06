@@ -62,7 +62,7 @@ else:
 # -------------------------------
 # Cauchy–Schwarz Inequality
 # -------------------------------
-norm_u = np.linalg.norm(u)
+norm_u = np.linalg.norm(u)#magnitude
 
 norm_v = np.linalg.norm(v)
 

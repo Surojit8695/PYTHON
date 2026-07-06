@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 6
-#
 # Question 6
 # Use Gauss Elimination to solve the following equations
 # and verify the solution with NumPy's built-in solver.

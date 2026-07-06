@@ -1,7 +1,4 @@
-# -------------------------------------------------------------
-# Assignment 15
-#
-# Question 15
+# Question 15(Same as 14)
 # Using the Glass Identification dataset,
 # identify the numerical variables and construct
 # frequency distributions for RI, Na and Mg.

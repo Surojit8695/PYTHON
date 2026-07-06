@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 7
-#
 # Question 7
 # Solve the following system of linear equations using
 # LU Decomposition Method. Also verify the solution.

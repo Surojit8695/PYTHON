@@ -9,6 +9,7 @@
 # -------------------------------------------------------------
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 #if we dont create csv we can create data like this
 # data = {
@@ -21,8 +22,8 @@ import pandas as pd
 # }
 #this is how we can read the csv file using pandas
 # df = pd.DataFrame(data)# convert the data into csv file
-
-df = pd.read_csv("seeds.csv")
+file1="C:\\Users\\suroj\\OneDrive\\Desktop\\PYTHON\\LINEAR ALGEBRA\\seeds.csv"
+df = pd.read_csv(file1)
 #display dataset
 print("Seeds Dataset\n")
 print(df)
@@ -57,3 +58,12 @@ print(df.std(numeric_only=True))
 print("\nSummary Statistics\n")
 
 print(df.describe())
+
+df.hist()
+plt.show()
+
+df.boxplot()
+plt.show()
+
+df.mean(numeric_only=True).plot(kind="bar")
+plt.show()

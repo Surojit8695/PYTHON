@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 1
-#
 # Question 1
 # Write a menu driven program that inputs 2 vectors u and v
 # of dimension 3 and perform the following operations:

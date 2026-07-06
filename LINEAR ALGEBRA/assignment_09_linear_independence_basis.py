@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 9
-#
 # Question 9
 # Consider the vectors
 #
@@ -69,6 +66,9 @@ print("\nBasis Vectors:")
 for i in pivot_columns:
 
     print(A.col(i))
+
+print("Basis Vectors:(Method 2)")#easy
+print(A.columnspace())
 
 # -------------------------------------------------------------
 # Dimension

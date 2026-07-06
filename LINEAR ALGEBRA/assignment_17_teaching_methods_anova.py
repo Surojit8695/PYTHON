@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 17
-#
 # Question 17
 # A teacher wants to know if three different teaching
 # methods produce different average exam scores.
@@ -15,7 +12,6 @@
 # Hint:
 # Use scipy.stats.f_oneway()
 # -------------------------------------------------------------
-
 from scipy.stats import f_oneway
 
 # -------------------------------------------------------------
@@ -27,9 +23,7 @@ method_B = [72, 75, 68, 70]
 
 method_C = [90, 95, 92, 88]
 
-# -------------------------------------------------------------
 # Hypotheses
-# -------------------------------------------------------------
 print("Null Hypothesis (H0):")
 
 print("The mean scores of all teaching methods are equal.")
@@ -42,6 +36,7 @@ print("At least one teaching method has a different mean score.")
 # Significance Level
 # -------------------------------------------------------------
 alpha = 0.05
+# print(5/100)
 
 print("\nSignificance Level =", alpha)
 

@@ -1,7 +1,4 @@
-# -------------------------------------------------------------
-# Assignment 16
-#
-# Question 16
+# Question 16(Dificult)
 # Using the Iris dataset, perform a One-Way ANOVA
 # to test whether there is a significant difference
 # in sepal length across the three species.

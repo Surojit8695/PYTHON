@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 21
-#
 # Question 21
 # A company claims that the average lifetime of its
 # LED bulbs is 5000 hours.

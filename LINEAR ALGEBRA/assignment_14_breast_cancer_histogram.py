@@ -1,6 +1,3 @@
-# -------------------------------------------------------------
-# Assignment 14
-#
 # Question 14
 # Using the Breast Cancer dataset, identify the
 # numerical variables and construct frequency
